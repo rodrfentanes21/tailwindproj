@@ -1,0 +1,19 @@
+.cards-container {
+  padding-top: 2em;
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 850px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+@media (max-width: 850px) {
+  #card {
+    min-width: 66%;
+  }
+  #card:nth-child(n+3):nth-child(-n+6) {
+    display: none;
+  }
+  p {
+    display: none;
+  }
+}
