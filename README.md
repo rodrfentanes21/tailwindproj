@@ -7,3 +7,4 @@ Link: https://tailwindproductpage.web.app
  - React
  - Tailwind
  - Create React App
+ - Firebase
